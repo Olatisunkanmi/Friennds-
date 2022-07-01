@@ -4,7 +4,10 @@ import imageOne from '../Assests/2.jpg';
 import red from '../Assests/red.jpg'
 
 const Main = () => {
-  return (
+    return (
+ <div 
+      className='bg-brightRed p-3 max-w-full'>
+
     <div 
         className='bg-black relative flex flex-row'>
 
@@ -50,6 +53,9 @@ const Main = () => {
                         
                         </div>
                 </div>
+    </div>
+
+    
     </div>
   )
 }

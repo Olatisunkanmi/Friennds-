@@ -2,6 +2,7 @@ import React from 'react'
 import flex1 from '../Assests/new1.jpg';
 import flex2 from '../Assests/new2.jpg';
 import flex3 from '../Assests/new3.jpg';
+import { Star, StarHalf } from '@material-ui/icons';
 
 const Arrivals = () => {
   return (
@@ -18,55 +19,170 @@ const Arrivals = () => {
 
 
             <div 
-                className='flex'>
+                className='flex static'>
 
                                     <div    
-                                        className='w-full '>
-                                            <img src={flex1} alt="" />
+                                    className='hidden w-full p-2 b static bg-veryPaleRed  flex-col md:flex'>
+                                            <img src={flex1} alt="" 
+                                                className='w-full'/>
+                                              
+                                                        <div className='absolute'>
+                                                        <a 
+                                                        href="#" 
+                                                        class="p-3 px-6 pt-2 
+                                                        text-white font-bold text-basee bg-brightRed rounded-lg baseline 
+                                                            
+                                                        hover:bg-brightRed hover:text-white">
+                                                            PRE ORDER !
+                                                        </a>
+                                                        </div>
+
+                                                        
                                     </div>
 
                                         {/**Sub Pictures  */}
-                                    <div className='flex flex-col  flex-wrap'>
+                                    <div className=' flex-row flex md:flex-col  flex-wrap'>
 
                                                     <div 
-                                                        className='flex-1 flex space-x-5 '>    
+                                                        className='flex-1 flex flex-col items-center md:flex-row space-x-5 p-8'>    
 
                                                                     <div 
-                                                                        className='w-2/7'>
-                                                                            <img src={flex2} alt=""  />
+                                                                        className='mb-5 w-2/6 space-y-2'>
+                                                                                <img src={flex2} alt="" className='w-full md:w-9/12'/>
+
+                                                                                <p 
+                                                                                    className='font-bold cursor-pointer text-xl text-red-500 
+                                                                                        hover:text-purple-800' > Face Cleaning Liquid </p>
+
+                                                                                <p className='text-purple-800 font-mono font-bold '> $500 </p>
+                                                                            <div  
+                                                                                className='flex flex-row'> 
+                                                                            <Star /> 
+                                                                            <Star /> 
+                                                                            <Star /> 
+                                                                            <Star /> 
+                                                                            <StarHalf /> 
+                                                                            
+                                                                            </div>
                                                                     </div>
+
                                                                     <div 
-                                                                        className='w-2/7'>
-                                                                            <img src={flex2} alt=""  />
+                                                                        className='mb-5 w-2/6 space-y-2'>
+                                                                                <img src={flex2} alt="" className='w-full md:w-9/12'/>
+
+                                                                                <p 
+                                                                                    className='font-bold cursor-pointer text-xl text-red-500 
+                                                                                        hover:text-purple-800' > Face Cleaning Liquid </p>
+
+                                                                                <p className='text-purple-800 font-mono font-bold '> $500 </p>
+                                                                            <div  
+                                                                                className='flex flex-row'> 
+                                                                            <Star /> 
+                                                                            <Star /> 
+                                                                            <Star /> 
+                                                                            <Star /> 
+                                                                            <StarHalf /> 
+                                                                            
+                                                                            </div>
                                                                     </div>
+
                                                                     <div 
-                                                                        className='w-2/7'>
-                                                                            <img src={flex2} alt=""  />
+                                                                        className='mb-5 w-2/6 space-y-2'>
+                                                                                <img src={flex2} alt="" className='w-full md:w-9/12'/>
+
+                                                                                <p 
+                                                                                    className='font-bold cursor-pointer text-xl text-red-500 
+                                                                                        hover:text-purple-800' > Face Cleaning Liquid </p>
+
+                                                                                <p className='text-purple-800 font-mono font-bold '> $500 </p>
+                                                                            <div  
+                                                                                className='flex flex-row'> 
+                                                                            <Star /> 
+                                                                            <Star /> 
+                                                                            <Star /> 
+                                                                            <Star /> 
+                                                                            <StarHalf /> 
+                                                                            
+                                                                            </div>
                                                                     </div>
-                                                        
+
+
+                                                                   
+                                               </div>
+
+                                               {/** Each Row */}
+                                                    <div 
+                                                        className='hidden flex-1 flex flex-col items-center md:flex md:flex-row space-x-5 p-8'>    
+
+                                                                    <div 
+                                                                        className='mb-5 w-2/6 space-y-2'>
+                                                                                <img src={flex2} alt="" className='w-full md:w-9/12'/>
+
+                                                                                <p 
+                                                                                    className='font-bold cursor-pointer text-xl text-red-500 
+                                                                                        hover:text-purple-800' > Face Cleaning Liquid </p>
+
+                                                                                <p className='text-purple-800 font-mono font-bold '> $500 </p>
+                                                                            <div  
+                                                                                className='flex flex-row'> 
+                                                                            <Star /> 
+                                                                            <Star /> 
+                                                                            <Star /> 
+                                                                            <Star /> 
+                                                                            <StarHalf /> 
+                                                                            
+                                                                            </div>
+                                                                    </div>
+
+                                                                    <div 
+                                                                        className='mb-5 w-2/6 space-y-2'>
+                                                                                <img src={flex2} alt="" className='w-full md:w-9/12'/>
+
+                                                                                <p 
+                                                                                    className='font-bold cursor-pointer text-xl text-red-500 
+                                                                                        hover:text-purple-800' > Face Cleaning Liquid </p>
+
+                                                                                <p className='text-purple-800 font-mono font-bold '> $500 </p>
+                                                                            <div  
+                                                                                className='flex flex-row'> 
+                                                                            <Star /> 
+                                                                            <Star /> 
+                                                                            <Star /> 
+                                                                            <Star /> 
+                                                                            <StarHalf /> 
+                                                                            
+                                                                            </div>
+                                                                    </div>
+
+                                                                    <div 
+                                                                        className='mb-5 w-2/6 space-y-2'>
+                                                                                <img src={flex2} alt="" className='w-full md:w-9/12'/>
+
+                                                                                <p 
+                                                                                    className='font-bold cursor-pointer text-xl text-red-500 
+                                                                                        hover:text-purple-800' > Face Cleaning Liquid </p>
+
+                                                                                <p className='text-purple-800 font-mono font-bold '> $500 </p>
+                                                                            <div  
+                                                                                className='flex flex-row'> 
+                                                                            <Star /> 
+                                                                            <Star /> 
+                                                                            <Star /> 
+                                                                            <Star /> 
+                                                                            <StarHalf /> 
+                                                                            
+                                                                            </div>
+                                                                    </div>
+
+
+                                                                   
                                                </div>
 
 
-                                               <div 
-                                               className='flex-1 flex space-x-3 '>    
-
-                                                           <div 
-                                                               className='w-2/7'>
-                                                                   <img src={flex2} alt="" />
-                                                           </div>
-                                                           <div 
-                                                               className='w-2/7'>
-                                                                   <img src={flex2} alt=""  />
-                                                           </div>
-                                                           <div 
-                                                               className='w-2/7'>
-                                                                   <img src={flex2} alt=""  />
-                                                           </div>
-                                               
-                                      </div>
+                                          
 
 
-                                    </div>
+                     </div>
 
                                     
             </div>

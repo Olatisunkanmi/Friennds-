@@ -4,7 +4,7 @@ import {Header, Topbar, Main , FirstRow, Arrivals} from '../Components/index'
 const Home = () => {
   return (
     <div 
-        className='w-full'>
+        className=''>
         <Header />
         <Topbar /> 
         <FirstRow />
