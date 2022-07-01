@@ -1,13 +1,14 @@
 import React from 'react'
-import {Header, Topbar, Main , FirstRow} from '../Components/index'
+import {Header, Topbar, Main , FirstRow, Arrivals} from '../Components/index'
 
 const Home = () => {
   return (
-    <div>
+    <div 
+        className='w-full'>
         <Header />
         <Topbar /> 
-        <Main />
         <FirstRow />
+        <Arrivals />
     </div>
   )
 }
