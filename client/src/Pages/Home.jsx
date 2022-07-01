@@ -1,5 +1,5 @@
 import React from 'react'
-import {Header, Topbar, Main } from '../Components/index'
+import {Header, Topbar, Main , FirstRow} from '../Components/index'
 
 const Home = () => {
   return (
@@ -7,6 +7,7 @@ const Home = () => {
         <Header />
         <Topbar /> 
         <Main />
+        <FirstRow />
     </div>
   )
 }
