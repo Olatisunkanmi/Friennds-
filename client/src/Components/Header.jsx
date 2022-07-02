@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../src/App.css'
 import logo from '../Assests/pep.jpg';
-import { Money, Person, Search, ShoppingBasket } from '@material-ui/icons'
+import { AirlineSeatLegroomReducedTwoTone, LocationCity, Mail, Money, Person, Phone, Search, ShoppingBasket, TrackChanges } from '@material-ui/icons'
 
 const Header = () => {
   return (
@@ -12,17 +12,19 @@ const Header = () => {
                               <div 
                               className='flex p-2 m-2 space-x-5'>
                                       <p  
-                                      className=''> 0002 9090 9090</p>
+                                      className=''> 
+                                      <Phone/> 0002 9090 9090</p>
                                       
-                                      <p> Mail </p>
+                                      <p>
+                                       <Mail/>  Mail </p>
                               </div>
                     
                     
                               <div
                               className='flex p-2 m-2 space-x-5'>
-                                      <p> Store  Location </p>
-                                      <p > Track Your Order </p>
-                                      <p>  Speak With an Agent </p>
+                                     <LocationCity /> <p> Store  Location </p>
+                                    <TrackChanges/>  <p > Track Your Order </p>
+                                   <AirlineSeatLegroomReducedTwoTone/>    <p>  Speak With an Agent </p>
                               </div>
                     </div>
       

@@ -106,13 +106,18 @@ const Arrivals = () => {
                                                                             </div>
                                                                     </div>
 
-
+                                                                <div 
+                                                                    className='px-5 p-3 bg-brightRed text-white font-bold rounded-lg md:hidden'>
+                                                                        <button>
+                                                                            Explore 
+                                                                        </button>
+                                                                </div>
                                                                    
                                                </div>
 
                                                {/** Each Row */}
                                                     <div 
-                                                        className='hidden flex-1 flex flex-col items-center md:flex md:flex-row space-x-5 p-8'>    
+                                                        className='hidden flex-1 flex-col items-center md:flex md:flex-row space-x-5 p-8'>    
 
                                                                     <div 
                                                                         className='mb-5 w-2/6 space-y-2'>
