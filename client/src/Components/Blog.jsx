@@ -54,12 +54,16 @@ const Blog = () => {
 
                                           </ul>
 
-                            <div>
-                                    <button>
+                            <div 
+                                className='
+                                    text-center'>
+                                    <button
+                                        className=' p-3'>
                                              PREV
                                     </button>
 
-                                    <button>
+                                    <button 
+                                        className='p-3'>
                                           NEXT
                                     </button>
                             </div>
