@@ -6,4 +6,6 @@ export {default as Blog } from './Blog'
 export { default as FirstRow } from './FirstRow';
 export { default as Collage } from './Collage';
 export {default as BestSelling } from './BestSelling';
+export {default as Service } from './Service'
+export { default as Footer } from './Footer'
 export { default as Home } from '../Pages/Home';
