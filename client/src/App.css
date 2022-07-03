@@ -16,6 +16,10 @@
    
 }
 
-.collage{
- 
+.collection--sidebar{
+    flex : 1
+}
+
+.collection--mainbar {
+    flex: 2
 }
