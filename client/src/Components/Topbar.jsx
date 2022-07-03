@@ -5,7 +5,7 @@ const Topbar = () => {
     <div 
         className='text-center justify-center sticky top-0 bg-white'>
             <ul 
-                className='space-x-3 flex flex-row text-center justify-center font-bold p-3 m-1 '>
+                className='space-x-7 flex flex-row text-center justify-center font-bold p-3 m-1 '>
                   <li
                      className='cursor-pointer hover:text-rose-700 active:text-rose-700 '> Home</li>
                   <li className='cursor-pointer hover:text-rose-700 active:text-rose-700 '> Collection </li>
