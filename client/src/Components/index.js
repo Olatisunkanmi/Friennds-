@@ -5,7 +5,7 @@ export { default as Main } from './Main';
 export {default as Arrivals } from './Arrials';
 export {default as Blog } from './Blog'
 export { default as FirstRow } from './FirstRow';
-export{ default as Collection} from './Collection'
+export{ default as Collection} from '../Pages/Collection'
 export { default as Collage } from './Collage';
 export {default as BestSelling } from './BestSelling';
 export {default as Service } from './Service'
