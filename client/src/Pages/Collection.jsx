@@ -140,16 +140,18 @@ const Collection = () => {
                                           </div>
 
                                           <div 
-                                            className='flex flex-row items-center font-bold'>
+                                            className='flex flex-row items-center '>
                                               <p 
-                                                className='mr-5'> Sort By </p>
+                                                className='mr-5 text-sm'> Sort By </p>
 
                                               <button className='mr-5 p-2 
+                                              font-bold
                                               border-white
                                               border-2
                                               border-b-amber-600
                                               hover:bg-black
-                                              hover:text-white'> <span className='pr-10'> Featured</span> 
+                                              hover:text-white
+                                                  hover:border-white'> <span className='pr-10'> Featured</span> 
                                                 <ArrowDropDownCircleOutlined/>
                                               </button>
                                           </div>
