@@ -3,6 +3,7 @@ import logo from '../Assests/pep.jpg';
 import React from 'react'
 import footerImg from '../Assests/footer.png'
 
+
 const Footer = () => {
   return (
     <div
@@ -12,28 +13,29 @@ const Footer = () => {
                 className='flex flex-col md:flex-row'>
 
                         <div 
-                            className='w-full bg-black text-white relative justify-center'>
+                            className='w-full bg-black text-white relative justify-center font-mono'>
+
                                         <div    
                                             className=' z-40 w-3/4'>
+                                                    <div 
+                                                        className='flex flex-row items-center w-3/12 m-5 relative'>
+                                                        <img src={logo} alt="" 
+                                                                className='w-1/2'
+                                                                    />
 
-                                          
-                                            <div 
-                                                className='flex flex-row items-center w-3/12 m-5'>
-                                                  <img src={logo} alt="" className='w-1/2'/>
-
-                                            <span
-                                            className='lush text-5xl tracking-widest' >  Lush </span>
-                                            </div>
+                                                    <span className='lush text-5xl tracking-widest' >  Lush </span>
+                                                    </div>
 
                                                     <div 
                                                         className='p-3'>
-                                                    <p 
-                                                    className='mb-5'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+                                                                <p 
+                                                                className='mb-5'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
 
 
-                                                <h3 className='text-lg font-bold'>Payment Method</h3>
-                                                <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diamLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam</p>
-                                                <CardGiftcard />
+                                                            <h3 className='text-lg font-bold'>Payment Method</h3>
+                                                            <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diamLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam</p>
+                                                            <CardGiftcard />
+                                                            
                                                     </div>
                                         </div>
 
@@ -115,11 +117,11 @@ const Footer = () => {
 
                                         </ul>
 
-                          
+                        </div>
+
 
 
                         
-                        </div>
             </div>
     </div>
   )
