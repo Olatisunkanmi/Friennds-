@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {Header, Topbar, MainPage } from '../Components/index'
+import {Header, Topbar, MainPage, Collection  } from '../Components/index'
 
 const Home = () => {
 
@@ -10,7 +10,7 @@ const Home = () => {
         className=''>
         <Header />
         <Topbar />
-        <MainPage />  
+        <Collection />
     </div>
   )
 }
