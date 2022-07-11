@@ -10,7 +10,7 @@ import img0 from '../Assests/pre.jpg';
 const Collage = () => {
   return (
     <div 
-        className='mt-5 flex flex-wrap flex-row p-10'>
+        className='mt-5 flex flex-wrap flex-row p-20'>
 
             <div
                 className='w-1/4'>
