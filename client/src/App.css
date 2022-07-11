@@ -23,3 +23,15 @@
 .collection--mainbar {
     flex: 2
 }
+
+.icons {
+    font-size: 25px !important;
+    padding: 3px;
+    border: 2px rgb(151, 148, 145) solid;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.icons:hover{
+    background-color: burlywood;
+}
