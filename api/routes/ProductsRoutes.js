@@ -34,5 +34,7 @@ router
 	.route('/category/Clothing')
 	.get(ProductController.Clothing, ProductController.getAllProducts);
 
+router.route('/:id').get(ProductController.getAProduct);
+
 // ! COMPLETE   ROUTE FOR PRODUCTS . !!!!!!!!!!!!!
 module.exports = router;
