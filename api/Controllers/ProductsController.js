@@ -1,9 +1,7 @@
-const { ifError } = require('assert');
 const Product = require('../Models/ProductModel');
 
 exports.Clothing = async (req, res, next) => {
 	req.query.category = 'Clothing';
-
 	next();
 };
 
@@ -21,6 +19,7 @@ exports.getRating = async (req, res, next) => {
 	req.query.sort = '-ratingsAverage';
 	next();
 };
+
 // Get all products
 exports.getAllProducts = async (req, res) => {
 	try {
@@ -71,6 +70,25 @@ exports.createProducts = async (req, res) => {
 			message: 'Product Created',
 			data: {
 				Product: NewProduct,
+			},
+		});
+	} catch (error) {
+		res.status(404).json({
+			status: 'Fail',
+			message: error.message,
+		});
+	}
+};
+
+exports.getAProduct = async (req, res) => {
+	try {
+		let productId = req.params.id;
+		productId = await Product.findById(productId);
+		res.status(200).json({
+			status: 'Success',
+			message: 'Product',
+			data: {
+				Product: productId,
 			},
 		});
 	} catch (error) {
