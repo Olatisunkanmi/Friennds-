@@ -1,1 +1,1 @@
-# xLMArt-MarketPlace
+# FriendsLy
