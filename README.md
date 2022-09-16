@@ -1,1 +1,1 @@
-# FriendsLy
+# README.md
