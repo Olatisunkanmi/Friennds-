@@ -29,7 +29,7 @@ db.users = require('../Models/UsersModel')(sequelize, DataTypes);
 
 // sync to modify table
 db.sequelize
-	.sync({ force: true })
+	.sync({ force: false })
 	.then(() => {
 		console.log('Table sync success');
 	})
